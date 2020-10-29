@@ -1,5 +1,5 @@
-# AngelHacks 2019 site
+# Sigmoid Hacks 2021 site
 
-[**angelhacks.org**](https://angelhacks.org)
+[**Sigmoid Hacks**](http://sigmoidhacks.ml/)
 
 MIT License
