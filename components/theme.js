@@ -80,7 +80,7 @@ const theme = merge(base, {
         primaryWash: palette.primaryWash,
         bannerBG: palette.bandark,
         //bannerColor: palette.primary,
-        bannerColor: palette.coolWash,
+        bannerColor: "white",
         bannerColorAlt: palette.primaryWash,
         coolBg: palette.dark,
         cards: palette.darkless,
@@ -89,7 +89,7 @@ const theme = merge(base, {
   },
   fonts: {
     body:
-      'Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
+      'Ubuntu,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
     heading: "inherit",
     mono: "Menlo, monospace",
   },
