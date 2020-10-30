@@ -113,20 +113,20 @@ export default (props) => {
         >
           <Flex sx={{ justifyContent: "center" }}>
             <A
-              href="https://instagram.com/angelhacks.la"
-              title="Instagram"
+              href="https://twitter.com/https://twitter.com/HacksSigmoid"
+              title="Twitter"
               sx={{ mx: 2 }}
             >
-              <Icon glyph="instagram" size={36} />
+              <Icon glyph="twitter" size={36} />
             </A>
             <A
-              href="https://github.com/angelhacks/site"
+              href="https://github.com/sigmoidhacks/site"
               title="GitHub"
               sx={{ mx: 2 }}
             >
               <Icon glyph="github" size={36} />
             </A>
-            <A href="mailto:claire@angelhacks.org" title="Email" sx={{ mx: 2 }}>
+            <A href="mailto:johnpaullins@gmail.com" title="Email" sx={{ mx: 2 }}>
               <Icon glyph="email" size={36} />
             </A>
           </Flex>
@@ -138,7 +138,7 @@ export default (props) => {
             }}
           >
             <Text sx={{ fontFamily: "heading", fontSize: 0, color: "inherit" }}>
-              AngelHacks, event run by Ad Astra Hack Club
+              Sigmoid Hacks, event run by Ad Astra Hack Club
             </Text>
             <Text
               sx={{

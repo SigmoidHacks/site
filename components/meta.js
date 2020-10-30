@@ -4,7 +4,7 @@ export default ({
   title = "Sigmoid Hacks: Promoting AI & Machine Learning",
   description = "A 12-hour hackathon for everyone.",
   image = "https://angelhacks.org/static/banner-inverted.png",
-  url = "https://angelhacks.org",
+  url = "http://sigmoidhacks.ml/",
 }) => (
   <Head>
     <title>{title}</title>
@@ -28,19 +28,19 @@ export default ({
           "@context": "https://schema.org",
           "@type": "Organization",
           name: "angelhacks",
-          url: "https://angelhacks.org",
-          logo: "https://angelhacks.org/logo_inverted.png",
+          url: "http://sigmoidhacks.ml/",
+          logo: "http://sigmoidhacks.ml/logo.png",
           sameAs: [
-            "https://twitter.com/angelhacks_la",
-            "https://www.instagram.com/angelhacks.la",
-            "https://www.facebook.com/angelhacks_la",
+            "https://twitter.com/HacksSigmoid",
+            // "https://www.instagram.com/angelhacks.la",
+            // "https://www.facebook.com/angelhacks_la",
           ],
           contactPoint: [
             {
               "@type": "ContactPoint",
               email: "hello@angelhacks.org",
               contactType: "customer support",
-              url: "https://angelhacks.org",
+              url: "http://sigmoidhacks.ml/",
             },
           ],
         }),
@@ -60,17 +60,6 @@ export default ({
           isAccessibleForFree: true,
           url: "https://angelhacks.org",
           image: "https://angelhacks.org/static/logo-inverted.png",
-          location: {
-            "@type": "Place",
-            name: "Snapchat Headquarters",
-            address: {
-              "@type": "PostalAddress",
-              addressLocality: "Los Angeles",
-              addressRegion: "CA",
-              postalCode: "90291",
-              streetAddress: "606 Venice Blvd., Venice 90291",
-            },
-          },
           sponsor: {
             "@type": "Organization",
             name: "Hack Club",
@@ -79,7 +68,7 @@ export default ({
           offers: {
             "@type": "Offer",
             name: "Free Admission",
-            url: "https://angelhacks.com",
+            url: "http://sigmoidhacks.ml/",
             price: "0",
             priceCurrency: "USD",
             availability: "https://schema.org/InStock",
@@ -88,7 +77,7 @@ export default ({
           },
           performer: {
             "@type": "PerformingGroup",
-            name: "AngelHacks Ad Astra Team",
+            name: "Sigmoid Hacks Team",
           },
         }),
       }}
