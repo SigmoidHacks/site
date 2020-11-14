@@ -2,9 +2,9 @@ import Head from "next/head";
 
 export default ({
   title = "Sigmoid Hacks: Promoting AI & Machine Learning",
-  description = "A 12-hour hackathon for everyone.",
-  image = "https://angelhacks.org/static/banner-inverted.png",
-  url = "http://sigmoidhacks.ml/",
+  description = "Sigmoid Hacks is a student-led 3 day machine learning hackathon hackathon powered by Hack Club for beginners and advanced ML developers.",
+  image = "../static/banner.png",
+  url = "https://sigmoidhacks.ml/",
 }) => (
   <Head>
     <title>{title}</title>
@@ -13,8 +13,8 @@ export default ({
     <meta name="twitter:title" content={title} />
     <meta name="og:url" content={url} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="AngelHacks" />
-    <meta name="twitter:site" content="@angelhacks_la" />
+    <meta property="og:site_name" content="SigmoidHacks" />
+    <meta name="twitter:site" content="@HacksSigmoid" />
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
     <meta name="twitter:description" content={description} />
@@ -27,20 +27,16 @@ export default ({
         __html: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "angelhacks",
-          url: "http://sigmoidhacks.ml/",
-          logo: "http://sigmoidhacks.ml/logo.png",
-          sameAs: [
-            "https://twitter.com/HacksSigmoid",
-            // "https://www.instagram.com/angelhacks.la",
-            // "https://www.facebook.com/angelhacks_la",
-          ],
+          name: "sigmoidhacks",
+          url: "https://sigmoidhacks.ml/",
+          logo: "https://sigmoidhacks.ml/logo.png",
+          sameAs: ["https://twitter.com/HacksSigmoid"],
           contactPoint: [
             {
               "@type": "ContactPoint",
-              email: "hello@angelhacks.org",
+              email: "main@nnsg.ml",
               contactType: "customer support",
-              url: "http://sigmoidhacks.ml/",
+              url: "https://sigmoidhacks.ml/",
             },
           ],
         }),
@@ -52,14 +48,14 @@ export default ({
         __html: JSON.stringify({
           "@context": "http://schema.org/",
           "@type": "Event",
-          name: "AngelHacks",
+          name: "SigmoidHacks",
           startDate: "2019-10-26T9:00",
           endDate: "2019-10-26T21:00",
           description:
-            "Register today for 12 hours of coding, fun, free food, and prizes. AngelHacks will be on October 26, 2019 and open to all middle and high school students.",
+            "Sigmoid Hacks is a student-led 3 day machine learning hackathon hackathon powered by Hack Club for beginners and advanced ML developers.",
           isAccessibleForFree: true,
-          url: "https://angelhacks.org",
-          image: "https://angelhacks.org/static/logo-inverted.png",
+          url: "https://sigmoidhacks.ml",
+          image: "../static/logo.png",
           sponsor: {
             "@type": "Organization",
             name: "Hack Club",
