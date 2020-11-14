@@ -225,8 +225,8 @@ export const Team = (props) => (
       img: {
         flexShrink: "none",
         borderRadius: "circle",
-        width: [64, 72],
-        height: [64, 72],
+        width: [75],
+        height: [75],
         objectFit: "cover",
         objectPosition: "center",
         mr: 3,
