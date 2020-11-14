@@ -126,7 +126,11 @@ export default (props) => {
             >
               <Icon glyph="github" size={36} />
             </A>
-            <A href="mailto:johnpaullins@gmail.com" title="Email" sx={{ mx: 2 }}>
+            <A
+              href="mailto:johnpaullins@gmail.com"
+              title="Email"
+              sx={{ mx: 2 }}
+            >
               <Icon glyph="email" size={36} />
             </A>
           </Flex>
@@ -138,7 +142,7 @@ export default (props) => {
             }}
           >
             <Text sx={{ fontFamily: "heading", fontSize: 0, color: "inherit" }}>
-              Sigmoid Hacks, event run by Ad Astra Hack Club
+              Sigmoid Hacks, event run by members of Hack Club
             </Text>
             <Text
               sx={{
