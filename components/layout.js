@@ -127,7 +127,7 @@ export default (props) => {
               <Icon glyph="github" size={36} />
             </A>
             <A
-              href="mailto:johnpaullins@gmail.com"
+              href="mailto:main@nnsg.ml"
               title="Email"
               sx={{ mx: 2 }}
             >
