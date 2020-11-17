@@ -56,7 +56,9 @@ export default (props) => {
           py: 3,
         }}
       >
-        <Avatar light size={60} sx={{ mr: 1 }} />
+        <Link href="/">
+          <Avatar light size={60} sx={{ mr: 1 }} />
+        </Link>
         <Link href="/">
           <A
             variant="styles.navitem"
@@ -126,11 +128,7 @@ export default (props) => {
             >
               <Icon glyph="github" size={36} />
             </A>
-            <A
-              href="mailto:main@nnsg.ml"
-              title="Email"
-              sx={{ mx: 2 }}
-            >
+            <A href="mailto:main@nnsg.ml" title="Email" sx={{ mx: 2 }}>
               <Icon glyph="email" size={36} />
             </A>
           </Flex>
