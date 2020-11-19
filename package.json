@@ -21,12 +21,13 @@
     "babel-plugin-emotion": "^10.0.19",
     "emotion": "^10.0.17",
     "emotion-server": "^10.0.17",
+    "framer-motion": "^2.9.4",
     "lodash": "^4.17.15",
     "next": "^9.0.7",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "rebass": "^4.0.6",
-    "theme-ui": "^0.2.43",
+    "theme-ui": "^0.4.0-rc.12",
     "yarn": "^1.22.10"
   }
 }
