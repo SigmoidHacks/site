@@ -2,13 +2,13 @@ import { Header, Container, Gallery } from "../components/blocks";
 import { Box, Button } from "rebass";
 import Photo from "../components/photo";
 
-<Header sx={{ bg: 'primary' }} width="narrow">
+import { motion } from "framer-motion";
 
+<Header sx={{ bg: 'primary' }} width="narrow">
 
 # About
 
 </Header>
-
 
 <Container width="narrow"
     sx={{
@@ -17,17 +17,15 @@ import Photo from "../components/photo";
         }
     }}>
 
-
 # We are on a mission.
 
-Sigmoid Hacks is a student-led hackathon powered by Hack Club and the NNSG Community. Sigmoid Hacks is a 3 day machine learning oriented hackathon that introduces students into the world of machine learning. We believe machine Learning Doesn't Have to be Just Another BuzzWord and should instead be and we stand by this. With your help, we can inspire students to pursue their dreams and work with AI & Machine Learning.
+Sigmoid Hacks is a student-led hackathon powered by Hack Club and the NNSG Community. Sigmoid Hacks is a 3 day machine learning oriented hackathon that introduces students into the world of machine learning. We believe machine learning doesn't have to be just another buzzword and should instead be and we stand by this. With your help, we can inspire students to pursue their dreams and work with AI & Machine Learning.
 
 Sigmoid Hacks is dedicated in encourage students to learn computer science—at just the age where they're interested in technology and programming.
 
 100+ students of all skill levels will assemble for a weekend of collaboration and innovation, each building apps/websites/games that give back to the community in 12 hours. Then participants and judges will select the winning projects and teams.
 
 </Container>
-
 
 <Container width="narrow"
   sx={{
@@ -41,11 +39,9 @@ Sigmoid Hacks is dedicated in encourage students to learn computer science—at 
     }
   }}>
 
-
 # Tracks
 
 </Container>
-
 
 <Gallery sx={{
     '> div': {
@@ -53,136 +49,112 @@ Sigmoid Hacks is dedicated in encourage students to learn computer science—at 
     },
 }}>
 
-
+<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} style={{ borderRadius: "25px", height:"auto"}}>
 <Box variant="card"
 sx={{
     h2: {
         color: 'success',
-    },
-    p: {
-            color: 'dark',
-        }
+    }
     }}>
-
 
 ## Environment
 
 N / A
 
 </Box>
+</motion.div>
 
-
+<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} style={{ borderRadius: "25px", height:"auto"}}>
 <Box variant="card"
 sx={{
-        h2: {
-            color: 'primary',
-        },
-        p: {
-            color: 'dark',
-        }
-    }} >
-
+    h2: {
+        color: 'success',
+    }
+    }}>
 
 ## Education
 
 N / A
 
 </Box>
+</motion.div>
 
-
+<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} style={{ borderRadius: "25px", height:"auto"}}>
 <Box variant="card"
 sx={{
     h2: {
         color: 'success',
-    },
-    p: {
-            color: 'dark',
-        }
+    }
     }}>
-
 
 ## Health
 
 N / A
 
 </Box>
+</motion.div>
 
-
+<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} style={{ borderRadius: "25px", height:"auto"}}>
 <Box variant="card"
 sx={{
-        h2: {
-            color: 'primary',
-        },
-        p: {
-            color: 'dark',
-        }
-    }} >
-
+    h2: {
+        color: 'success',
+    }
+    }}>
 
 ## Community
 
 N / A
 
 </Box>
+</motion.div>
 
-
+<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} style={{ borderRadius: "25px", height:"auto"}}>
 <Box variant="card"
 sx={{
     h2: {
         color: 'success',
-    },
-    p: {
-            color: 'dark',
-        }
+    }
     }}>
-
 
 ## Business
 
 N / A
 
 </Box>
+</motion.div>
 
-
+<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} style={{ borderRadius: "25px", height:"auto"}}>
 <Box variant="card"
 sx={{
-        h2: {
-            color: 'primary',
-        },
-        p: {
-            color: 'dark',
-        }
-    }} >
-
+    h2: {
+        color: 'success',
+    }
+    }}>
 
 ## Communication
 
 N / A
 
 </Box>
+</motion.div>
 
-
+<motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }} style={{ borderRadius: "25px", height:"auto"}}>
 <Box variant="card"
-width="100%"
 sx={{
-        h2: {
-            color: 'primary',
-        },
-        p: {
-            color: 'dark',
-        }
-    }} >
-
+    h2: {
+        color: 'success',
+    }
+    }}>
 
 ## Other
 
 N / A
 
 </Box>
-
+</motion.div>
 
 </Gallery>
-
 
 <Container width="narrow"
     sx={{
@@ -191,12 +163,10 @@ N / A
         }
     }}>
 
-
 # Coding is a superpower.
 
-Starting to code has a lasting impact. Once you begin coding, you switch from being a consumer to being a creator. We want to make everyone a creator—it’s a magical transformation. You can solve problems your way, bounded only by your imagination.
+Starting to code has a lasting impact. Once you begin coding, you switch from being a consumer to being a creator. We want to make everyone a creator — it’s a magical transformation. You can solve problems your way, bounded only by your imagination.
 
-We know this because we’re the leaders of the [Hack Club](https://hackclub.com/) at Ad Astra School, where we have good infrastructure for students to learn to code. Now, we want to bring that experience to everyone. This is a hackathon by the students, for the students, and for the future of all of Los Angeles.
+Read more about why we organize hackathons in the <a href="https://hackclub.com/philosophy/" target="_blank">Hack Club Philsophy</a>
 
 </Container>
-
