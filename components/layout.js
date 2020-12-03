@@ -60,14 +60,14 @@ export default (props) => {
         <Link href="/">
           <Avatar light size={60} sx={{ mr: 1 }} />
         </Link>
-        <Link href="/">
+        {/* <Link href="/">
           <A
             variant="styles.navitem"
             sx={{ display: ["none", "block"], fontWeight: "mediumbold" }}
           >
             Sigmoid Hacks
           </A>
-        </Link>
+        </Link> */}
         <Box sx={{ mx: "auto" }} />
         <Link href="/about">
           <A variant="styles.navitem">About</A>

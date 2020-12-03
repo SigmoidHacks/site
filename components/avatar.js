@@ -8,7 +8,6 @@ export default ({ light = false, ...props }) => (
         {...props}
         src="/static/logo.png"
         alt="Sigmoid Hacks Logo"
-        width="90px"
         sx={{
           overflow: "hidden",
           ...props.sx,
