@@ -60,14 +60,6 @@ export default (props) => {
         <Link href="/">
           <Avatar light size={60} sx={{ mr: 1 }} />
         </Link>
-        {/* <Link href="/">
-          <A
-            variant="styles.navitem"
-            sx={{ display: ["none", "block"], fontWeight: "mediumbold" }}
-          >
-            Sigmoid Hacks
-          </A>
-        </Link> */}
         <Box sx={{ mx: "auto" }} />
         <Link href="/about">
           <A variant="styles.navitem">About</A>
@@ -79,7 +71,7 @@ export default (props) => {
           <A variant="styles.navitem">Register</A>
         </Link>
 
-        <A
+        {/* <A
           sx={{ color: palette.primary }}
           variant="styles.navitem"
           href="https://discord.gg/a2wQZrMkp4"
@@ -95,7 +87,7 @@ export default (props) => {
           target="_blank"
         >
           Devpost
-        </A>
+        </A> */}
 
         <ColorButton
           sx={{ ml: [2, 3] }}
