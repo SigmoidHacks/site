@@ -8,10 +8,39 @@ import theme from "./theme";
 const data = {
   sponsors: [
     {
-      name: "Sponsor Name",
-      link: "Link To Sponsor Site",
-      image:
-        "Sponsor Logo Image",
+      name: "AI Community",
+      link: "https://discord.gg/DNxuhtV",
+      image: "../static/sponsors/aicommunity.png",
+    },
+    {
+      name: "balsamiq",
+      link: "https://balsamiq.com/",
+      image: "../static/sponsors/balsamiq.png",
+    },
+    {
+      name: "Hack Club",
+      link: "https://hackclub.com/",
+      image: "../static/sponsors/hackclub.png",
+    },
+    {
+      name: "Hack Club Bank",
+      link: "https://hackclub.com/bank/",
+      image: "../static/sponsors/hackclubbank.png",
+    },
+    {
+      name: "Jet Brains",
+      link: "https://www.jetbrains.com/",
+      image: "../static/sponsors/jetbrains.png",
+    },
+    {
+      name: "Memorize.ai",
+      link: "https://memorize.ai/",
+      image: "../static/sponsors/memorizeai.jpg",
+    },
+    {
+      name: "nnsg",
+      link: "https://discord.gg/fam6efTHP7",
+      image: "../static/sponsors/nnsg.png",
     },
   ],
 };
