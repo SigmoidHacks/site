@@ -51,10 +51,17 @@ export default (props) => {
         as="header"
         variant="container"
         sx={{
+          margin: 0,
           color: "primary",
+          background: "rgba(255, 255, 255,0.6)",
           alignItems: "center",
           px: 3,
           py: 3,
+          position: "fixed",
+          maxWidth: "100%",
+          width: "100vw",
+          zIndex: "1000",
+          backdropFilter: "blur(10px) !important",
         }}
       >
         <Link href="/">
