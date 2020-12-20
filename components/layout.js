@@ -46,7 +46,7 @@ export default (props) => {
   const [mode, setMode] = useColorMode();
 
   return (
-    < >
+    <>
       <Flex
         as="header"
         variant="container"
@@ -57,10 +57,10 @@ export default (props) => {
           alignItems: "center",
           px: 3,
           py: 3,
-          position:"fixed",
+          position: "fixed",
           maxWidth: "100%",
           width: "100vw",
-          zIndex:"1000", 
+          zIndex: "1000",
           backdropFilter: "blur(10px) !important",
         }}
       >
