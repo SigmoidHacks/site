@@ -53,15 +53,18 @@ export default (props) => {
         sx={{
           margin: 0,
           color: "primary",
-          background: "rgba(255, 255, 255,0.6)",
+          backgroundColor: "rgba(0, 0, 0, 0.6)",
+          transition: "backgroundColor 0.1 ease-in-out",
+          backdropFilter: "saturate(180%) blur(10px)",
           alignItems: "center",
           px: 3,
           py: 3,
-          position: "fixed",
           maxWidth: "100%",
           width: "100vw",
           zIndex: "1000",
-          backdropFilter: "blur(10px) !important",
+          position: "sticky",
+          zIndex: "10",
+          top: "0",
         }}
       >
         <Link href="/">
