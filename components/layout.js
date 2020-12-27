@@ -78,24 +78,6 @@ export default (props) => {
           <A variant="styles.navitem">Register</A>
         </Link>
 
-        {/* <A
-          sx={{ color: palette.primary }}
-          variant="styles.navitem"
-          href="https://discord.gg/a2wQZrMkp4"
-          target="_blank"
-        >
-          Discord
-        </A>
-
-        <A
-          sx={{ color: palette.primary }}
-          variant="styles.navitem"
-          href="https://sigmoidhacks.devpost.com/"
-          target="_blank"
-        >
-          Devpost
-        </A> */}
-
         <ColorButton
           sx={{ ml: [2, 3] }}
           onClick={(e) => {

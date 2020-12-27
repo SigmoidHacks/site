@@ -24,20 +24,41 @@ import { motion } from "framer-motion";
 <div>
 <Gallery>
 <a href="https://discord.gg/fam6efTHP7" target="_blank" style={{ textDecoration: "none" }}>
+<motion.div
+    whileHover={{ scale: 1.1 }}
+    style={{
+      borderRadius: "25px",
+      textAlign: "center",
+      backgroundColor: "#ec3750",
+      color: "#fff",
+    }}
+ >
 <Box variant="card" style={{ backgroundColor: "black" }}>
-<h2 style={{ color: "primary" }}>Discord</h2>
+<h2 style={{ color: "primary", fontSize: "35px" }}>Discord</h2>
 </Box>
+</motion.div>
 </a>
 
 <a href="https://sigmoidhacks.devpost.com/" target="_blank" style={{ textDecoration: "none" }}>
+<motion.div
+    whileHover={{ scale: 1.1 }}
+    style={{
+      borderRadius: "25px",
+      textAlign: "center",
+      backgroundColor: "#ec3750",
+      color: "#fff",
+    }}
+ >
 <Box variant="card" style={{ backgroundColor: "black" }}>
-<h2 style={{ color: "primary" }}>Devpost</h2>
+<h2 style={{ color: "primary", fontSize: "35px" }}>Devpost</h2>
 </Box>
+</motion.div>
 </a>
 </Gallery>
 </div>
 
 <div>
+<Box variant="card" style={{ backgroundColor: "#00bdde" }}>
 <Text
   style={{
     color: "primary",
@@ -47,6 +68,7 @@ import { motion } from "framer-motion";
 >
   January 15 - 18, 2021 @ Your Computer!
 </Text>
+</Box>
 </div>
 </Banner>
 
@@ -79,7 +101,6 @@ Hackers, programmers, and makers come together to Sigmoid Hacks to create epic *
 >
   <motion.div
     whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.8 }}
     style={{
       borderRadius: "25px",
       textAlign: "center",
