@@ -53,7 +53,7 @@ export default (props) => {
         sx={{
           margin: 0,
           color: "primary",
-          backgroundColor: "rgba(0, 0, 0, 0.6)",
+          backgroundColor: "rgba(255, 255, 255, 0.6)",
           transition: "backgroundColor 0.1 ease-in-out",
           backdropFilter: "saturate(180%) blur(10px)",
           alignItems: "center",

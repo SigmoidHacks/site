@@ -178,7 +178,7 @@ const theme = merge(base, {
       height: "auto",
     },
     navitem: {
-      color: "white",
+      color: "black",
       cursor: "pointer",
       borderRadius: "circle",
       fontWeight: "medium",
@@ -191,6 +191,7 @@ const theme = merge(base, {
       transition: "background .125s ease-in-out",
       ":focus, :hover, :active": {
         bg: "black",
+        color: "white"
       },
     },
   },
