@@ -191,7 +191,7 @@ const theme = merge(base, {
       transition: "background .125s ease-in-out",
       ":focus, :hover, :active": {
         bg: "black",
-        color: "white"
+        color: "white",
       },
     },
   },
