@@ -236,7 +236,7 @@ export const Team = (props) => (
   />
 );
 
-export const Header = ({ width="100%", sx, ...props }) => (
+export const Header = ({ width = "100%", sx, ...props }) => (
   <Box
     {...props}
     sx={{
