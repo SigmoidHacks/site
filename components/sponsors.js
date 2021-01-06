@@ -42,6 +42,11 @@ const data = {
       link: "https://discord.gg/fam6efTHP7",
       image: "../static/sponsors/nnsg.png",
     },
+    {
+      name: "Learn AI Community",
+      link: "https://discord.gg/GuWARYeUJf",
+      image: "../static/sponsors/aidisc.png",
+    },
   ],
 };
 
