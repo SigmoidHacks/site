@@ -47,6 +47,11 @@ const data = {
       link: "https://discord.gg/GuWARYeUJf",
       image: "../static/sponsors/aidisc.png",
     },
+    {
+      name: "Sticker Mule",
+      link: "https://stickermule.com",
+      image: "https://s3.amazonaws.com/challengepost/sponsors/logos/000/017/649/highres/download.png",
+    },
   ],
 };
 
