@@ -42,6 +42,16 @@ const data = {
       link: "https://discord.gg/fam6efTHP7",
       image: "../static/sponsors/nnsg.png",
     },
+    {
+      name: "Learn AI Community",
+      link: "https://discord.gg/GuWARYeUJf",
+      image: "../static/sponsors/aidisc.png",
+    },
+    {
+      name: "Sticker Mule",
+      link: "https://stickermule.com",
+      image: "https://s3.amazonaws.com/challengepost/sponsors/logos/000/017/649/highres/download.png",
+    },
   ],
 };
 
