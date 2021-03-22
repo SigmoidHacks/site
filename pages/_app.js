@@ -26,7 +26,7 @@ export default class extends App {
         <Meta />
         <Head>
           <link
-            href="https://fonts.googleapis.com/css?family=Ubuntu:400,700,900"
+            href="https://fonts.googleapis.com/css2?family=Gentium+Basic:wght@700&display=swap"
             rel="stylesheet"
           />
         </Head>
