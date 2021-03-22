@@ -89,7 +89,7 @@ const theme = merge(base, {
   },
   fonts: {
     body:
-      'Ubuntu,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
+      'Gentium Basic,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif',
     heading: "inherit",
     mono: "Menlo, monospace",
   },
